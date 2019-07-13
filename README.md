@@ -11,7 +11,7 @@ Install-Package librarycalc21 -Version 1.0.3
 
 ## how to use
 
-'''cs
+```cs
 using librarycalc21;
 using System;
 
@@ -30,4 +30,4 @@ namespace calculadoratestes
     }
 }
 
-'''
+```
