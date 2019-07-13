@@ -6,3 +6,28 @@ Biblioteca de calculos matemáticos
 
 ## how to install
 Install-Package librarycalc21 -Version 1.0.3
+
+![Nuget](https://img.shields.io/nuget/dt/LibraryCalc21.svg)
+
+## how to use
+'''cs
+
+using librarycalc21;
+using System;
+
+namespace calculadoratestes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            calculadora calculadora = new calculadora();
+
+            var result = calculadora.somar(2, 2);
+
+            Console.WriteLine(result);
+        }
+    }
+}
+
+'''
