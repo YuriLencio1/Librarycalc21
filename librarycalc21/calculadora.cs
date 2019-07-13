@@ -30,6 +30,11 @@ namespace librarycalc21
         {
             return x + y + z;
         }                
+
+        public int subtrair(int x, int y, int z)
+        {
+            return x - y - z;
+        }
         
     }
 }

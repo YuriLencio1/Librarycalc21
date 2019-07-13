@@ -49,5 +49,14 @@ namespace librarycalc21
         /// <param name="z">valor inteiro</param>
         /// <returns>resultado da soma de tres valores</returns>
         int somar(int x, int y, int z);
+
+        /// <summary>
+        /// subtraçao de tres valores
+        /// </summary>
+        /// <param name="x">valor inteiro</param>
+        /// <param name="y">valor inteiro</param>
+        /// <param name="z">valor inteiro</param>
+        /// <returns></returns>
+        int subtrair(int x, int y, int z);
     }
 }
