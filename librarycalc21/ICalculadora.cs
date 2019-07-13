@@ -67,5 +67,16 @@ namespace librarycalc21
         /// <param name="z">valor inteiro</param>
         /// <returns></returns>
         int multiplicar(int x, int y, int z);
+
+        /// <summary>
+        /// multiplicar e subtrair valores
+        /// </summary>
+        /// <param name="x">valor inteiro</param>
+        /// <param name="y">valor inteiro</param>
+        /// <param name="z">valor inteiro</param>
+        /// <returns></returns>
+        int multiplicarsubtrair(int x, int y, int z);
+
+
     }
 }
